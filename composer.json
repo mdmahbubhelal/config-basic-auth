@@ -1,0 +1,33 @@
+{
+    "name": "zero/config-basic-auth",
+    "description": "Provides basic auth using a config file for credentials",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Md Mahbub Helal",
+            "email": "mdhelal00@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Zero\\ConfigBasicAuth\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zero\\ConfigBasicAuth\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zero\\ConfigBasicAuth\\ConfigBasicAuthServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^7.0",
+        "phpunit/phpunit": "^9.5"
+    }
+}
