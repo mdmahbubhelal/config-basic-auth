@@ -1,5 +1,5 @@
 {
-    "name": "zero/config-basic-auth",
+    "name": "mdmahbubhelal/config-basic-auth",
     "description": "Provides basic auth using a config file for credentials",
     "type": "library",
     "license": "MIT",
@@ -11,18 +11,18 @@
     ],
     "autoload": {
         "psr-4": {
-            "Zero\\ConfigBasicAuth\\": "src/"
+            "MdMahbubHelal\\ConfigBasicAuth\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Zero\\ConfigBasicAuth\\Tests\\": "tests"
+            "MdMahbubHelal\\ConfigBasicAuth\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Zero\\ConfigBasicAuth\\ConfigBasicAuthServiceProvider"
+                "MdMahbubHelal\\ConfigBasicAuth\\ConfigBasicAuthServiceProvider"
             ]
         }
     },

@@ -1,9 +1,9 @@
 <?php
 
-namespace Zero\ConfigBasicAuth\Tests;
+namespace MdMahbubHelal\ConfigBasicAuth\Tests;
 
 use Illuminate\Support\Facades\Route;
-use Zero\ConfigBasicAuth\ConfigBasicAuthServiceProvider;
+use MdMahbubHelal\ConfigBasicAuth\ConfigBasicAuthServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {

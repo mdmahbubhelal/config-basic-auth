@@ -1,9 +1,9 @@
 <?php
 
-namespace Zero\ConfigBasicAuth\Tests\Feature;
+namespace MdMahbubHelal\ConfigBasicAuth\Tests\Feature;
 
 use Illuminate\Http\Response;
-use Zero\ConfigBasicAuth\Tests\TestCase;
+use MdMahbubHelal\ConfigBasicAuth\Tests\TestCase;
 
 class ConfigBasicAuthTest extends TestCase
 {

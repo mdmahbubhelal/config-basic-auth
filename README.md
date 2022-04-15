@@ -11,12 +11,12 @@ username: user1
 password: password1
 ```
 # Installation
-`composer require zero/config-basic-auth --dev`
+`composer require mdmahbubhelal/config-basic-auth --dev`
 
 # Configuration
 you can publish config by running:
 
-`php artisan vendor:publish --provider="Zero\ConfigBasicAuth\ConfigBasicAuthServiceProvider" --tag="config"`
+`php artisan vendor:publish --provider="MdMahbubHelal\ConfigBasicAuth\ConfigBasicAuthServiceProvider" --tag="config"`
 
 that will publish `basicauth.php` file in `config` directory
 

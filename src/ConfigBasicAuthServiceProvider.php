@@ -1,10 +1,10 @@
 <?php
 
-namespace Zero\ConfigBasicAuth;
+namespace MdMahbubHelal\ConfigBasicAuth;
 
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Support\ServiceProvider;
-use Zero\ConfigBasicAuth\Http\Middleware\ConfigBasicAuth;
+use MdMahbubHelal\ConfigBasicAuth\Http\Middleware\ConfigBasicAuth;
 
 class ConfigBasicAuthServiceProvider extends ServiceProvider
 {

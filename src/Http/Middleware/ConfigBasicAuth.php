@@ -1,6 +1,6 @@
 <?php
 
-namespace Zero\ConfigBasicAuth\Http\Middleware;
+namespace MdMahbubHelal\ConfigBasicAuth\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Response;
