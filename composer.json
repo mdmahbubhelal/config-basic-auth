@@ -3,6 +3,11 @@
     "description": "Provides basic auth using a config file for credentials",
     "type": "library",
     "license": "MIT",
+    "keywords": [
+        "laravel",
+        "config",
+        "basic auth"
+    ],
     "authors": [
         {
             "name": "Md Mahbub Helal",

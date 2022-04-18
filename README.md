@@ -1,4 +1,4 @@
-# Adds basic auth globally, uses credentials from config
+# Adds basic auth globally in Laravel application, uses credentials from config
 Useful mostly in staging scenarios where you don't want website publicly accessible by everyone.
 
 Default credentials are:
